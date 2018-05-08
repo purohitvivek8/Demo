@@ -13,11 +13,12 @@ public class Program3 {
 	    StringBuilder str = new StringBuilder("");
             int i=0;
             while ((character = reader.read()) != -1) {
-		i++;
+		
                 c=(char) character;
 		if(c!=',')
 		{
-		  str.insert(i,c);	
+		  str.insert(i,c);
+		  i++;	
 		}
 		else
 		{
